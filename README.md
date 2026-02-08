@@ -5,7 +5,7 @@
 Это не очередной LLM — это платформа для создания **саморазвивающегося** интеллекта.
 
 [![License](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)]
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)]()
 
 ## 🎯 Цели проекта
 
