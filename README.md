@@ -23,10 +23,29 @@
 
 Полный текст лицензии: [LICENSE](LICENSE)
 
-## 🏗️ Архитектура (высокий уровень)
+## 🏗️ Архитектура
 
 ```
-???
+.
+├── main.py
+├── core.py
+├── VirtualBox.py
+├── requirements.txt
+├── VirtualBox/
+│  ├── engine.py
+│  ├── assets/
+│  │  ├── textures/
+│  │  ├── models/
+│  │  └── mira/
+│  ├── mods/
+│  ├── addons/
+│  ├── PC/
+│  └── 
+├── py-to-c.py
+├── py-to-c_mods/
+│  └── 
+├── LICENCE
+└── README.md
 ```
 
 ## 📋 Быстрый старт (только для ознакомления)
@@ -45,10 +64,13 @@ python main.py --demo
 
 ## 📈 Роадмапа
 
-- [x] **v0.1** — Proof of Concept
-- [ ] **v0.2** — Multi-modal perception
-- [ ] **v0.3** — Real-world deployment
-- [ ] **v1.0** — Production-ready core
+- [x] **v0.1** — Концепт
+- [ ] **v0.2** — Создание VirtualBox
+- [ ] **v0.3** - Создание 3D-хайполь-моделей
+- [ ] **v0.4** — Интеграция VirtualBox с PC-модулем
+- [ ] **v0.5** - Продумывание структуры ядра ИИ и системы её обучения а также интеграций
+- [ ] **v0.6** - Компилятор с py на C
+- [ ] **v1.0** — Ядро ИИ и начало обучения
 
 ## 🤝 Благодарности
 
@@ -75,8 +97,8 @@ python main.py --demo
 ## 📞 Контакты
 
 - **GitHub**: [@Major-Woolfi](https://github.com/major-woolfi)
-- **Свой сайт**: majorwoolfi.ddns.net
-- **Email**: [majorwoolfi@gmail.com](https://majorwoolfi.ddns.net)
+- **Свой сайт**: [majorwoolfi.ddns.net](majorwoolfi.ddns.net)
+- **Email**: [majorwoolfi@gmail.com](majorwoolfi@gmail.com)
 - **Telegram**: [@Major_Woolfi](https://t.me/Major_Woolfi)
 
 ## 📄 Лицензия
